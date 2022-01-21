@@ -4,11 +4,10 @@ Este Hook nos ayudara a manejar contadores dentro de nuestra app, puede ser uno 
 con el factor que indiquemos.
 
 ## Uso:
-`   const { counter: state, increment, decrement, reset } = useCounter(10); // useCounter recibe un valor inicial.
+```const { counter: state, increment, decrement, reset } = useCounter(10); // useCounter recibe un valor inicial.
 
     console.log( counter ) // Imprime el valor actual del contador 
     
     increment( 2 ); // Aumenta el valor del countador en el factor que le pasamos ( 10 + 2 )
     decrement( 3 ); // Decrementa el valor del contador en el factor que le pasamos ( 12 - 3 )
-    reset(); // Devuelve el contador a su valor inicial
-`
+    reset(); // Devuelve el contador a su valor inicial```
